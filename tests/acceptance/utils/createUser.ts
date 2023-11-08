@@ -1,6 +1,4 @@
-import {faker, fakerEN} from '@faker-js/faker';
-import {mock} from "intermock";
-import fs from "fs";
+import {faker} from '@faker-js/faker';
 const uniqueID = faker.number.int({ min: 0, max: 99999999 });
 
 
